@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a = 0
+    while a < len(s):
+        q = print(s[a])
+        a = a + 1
+    return q
+print(main('unolplpl'))
