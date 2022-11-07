@@ -6,9 +6,14 @@ def main(s):
     Returns:
         int: return answer
     """
-    a = 0
-    while a < len(s):
-        q = print(s[a])
-        a = a + 1
-    return q
-print(main('unolplpl'))
+    i = 0
+    while i < len(s):
+        if s[i].isdigit():
+            print(s[i])
+        i = i + 1
+print(main('ertdf6gybj23'))
+# s = 'start'
+# i = 0
+# while i < len(s):
+#     print(s[i])
+#     i = i + 1
