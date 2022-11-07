@@ -9,8 +9,9 @@ def main(s):
     i = 0
     while i < len(s):
         if s[i].isdigit():
-            print(s[i])
+            a = (s[i])
         i = i + 1
+    return a
 print(main('ertdf6gybj23'))
 # s = 'start'
 # i = 0
