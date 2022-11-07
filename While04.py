@@ -6,9 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
+    a = 0
     i = 0
     while i < len(s):
-        if s[i].isupper():
-            a = s[i]
+        if not s[i].islower():
+            a += 1
         i += 1
     return a
+print(main('okkOKO'))
