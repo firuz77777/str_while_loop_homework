@@ -6,12 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
+    c=0
     i = 0
     while i < len(s):
         if s[i].isdigit():
-            a = (s[i])
+            c+=1
         i = i + 1
-    return a
+    return c
 print(main('ertdf6gybj23'))
 # s = 'start'
 # i = 0
