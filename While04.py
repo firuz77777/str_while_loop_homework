@@ -6,11 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    a = 0
     i = 0
     while i < len(s):
         if not s[i].islower():
-            a += 1
+            print(s[i])
         i += 1
-    return a
+    return 
 print(main('okkOKO'))
