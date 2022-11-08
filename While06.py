@@ -7,3 +7,20 @@ def main(s):
     Returns:
         int: return answer
     """
+    a = 0
+    i = 0
+    while i < len(s):
+        if s[i] == 'a':
+            a += 1
+        if s[i] == 'e':
+            a += 1
+        if s[i] == 'i':
+            a += 1
+        if s[i] == 'o':
+            a += 1
+        if s[i] == 'u':
+            a += 1
+        else :
+            a += 0
+        i += 1
+    return a
