@@ -17,7 +17,7 @@ def main(s):
         if s[i] == 'i':
             a += 1
         if s[i] == 'o':
-            a += 1
+            a += 1 
         if s[i] == 'u':
             a += 1
         else :
